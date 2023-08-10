@@ -1,0 +1,33 @@
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: #4B67AD;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 1.25rem;
+    font-size: 3vh;
+}
+
+.navegacion{
+    display: flex;  
+    flex-wrap: wrap;
+    margin-right: 2rem;
+}
+
+a{
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #405794;
+    border-radius: 100px;
+}
