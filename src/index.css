@@ -1,3 +1,7 @@
+/*Aqui va todos los cambios generales para la pagina*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

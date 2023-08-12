@@ -1,9 +1,10 @@
-import {Header} from '../Containers/index'
+import {Header , Body} from '../Containers/index'
 
 const Home = () => {
   return (
     <div>
       <Header />
+      <Body />
     </div>
   )
 }
