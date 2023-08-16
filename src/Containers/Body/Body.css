@@ -1,48 +1,63 @@
-.one{
-    display: flex;
+.all{
+    position: relative;
 }
 .one img{
     width: 100%;
-    filter: brightness(48%); 
 }
-.one h1{
+
+h1{
     color: white;
     position: absolute;
-    top: 32%;
+    top: 15%;
     width: 100%;
     padding-left: 4%;    
     font-size: 12vh;
     font-family: 'Tektur', cursive;
 }
-.one h2{
-    color: white;
-    position: absolute;
-    top: 45%;
+
+/*Estilos de las Cartas*/
+.two{
     width: 100%;
-    padding-left: 4%;
-    font-size: 12vh;
-    font-family: 'Tektur', cursive;
+    display: flex;
+    justify-content: space-between;
 }
 
-.one p{
-    color: white;
+.box-cards{
+    display: flex;
     position: absolute;
-    width: 30%;
-    top: 42%;
-    font-size: 2.5vh;
-    right: 7%;
-    font-family: 'Tektur', cursive;
+    left: 2%;
+    top: 75%;
+}
+
+.cards{
+    background: white;
+    margin: 0.3rem; 
+    padding: 1rem;
+    border-radius: 21px;
+    border: solid;
+    border-color: #A15571;
+    max-width: 9rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 1.5rem;
 }
 
 .btn{
     position: absolute;
+    top: 88%;
+    right: 2%;
     background-color: #E9B281;
-    right: 3%;
-    bottom: 6%;
-    width: 10%;
-    padding: 0.7%;
+    border: solid;
+    border-color: black;
+    padding: 0.5rem;
     font-size: 2.3vh;
     border-radius: 21px;
     font-family: 'Tektur', cursive;
-    font-weight: 600;
+    font-weight: bold;
 }
