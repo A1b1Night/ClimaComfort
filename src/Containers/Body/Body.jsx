@@ -27,34 +27,39 @@ const Body = () => {
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris </p>
             </div>
+
+{/* Aqui empieza el codigo de las Cajas de las Cartas */}
             <div className='two'>
                 <div className='box-cards'>
                     <div className='cards'>
                         <img src={Casco} alt='img' className="w-10"/>
-                        <h3>Proteccion</h3>
+                        <h4>Proteccion</h4>
                         <p>Lorem ipsum dolor</p>
                     </div>
                     <div className='cards'>
                         <img src={Arnes} alt='img' className="w-10"/>
-                        <h3>Precaucion</h3>
+                        <h4>Precaucion</h4>
                         <p>Lorem ipsum dolor</p>
                     </div>
                     <div className='cards'>
                         <img src={Chaleco} alt='img' className="w-10"/>
-                        <h3>Uniforme</h3>
+                        <h4>Uniforme</h4>
                         <p>Lorem ipsum dolor</p>
                     </div>
                     <div className='cards'>
                         <img src={Lentes} alt='img' className="w-10"/>
-                        <h3>Seguridad</h3>
+                        <h4>Seguridad</h4>
                         <p>Lorem ipsum dolor</p>
                     </div>
                 </div>
                 <button className='btn'>Contactanos</button>
             </div>
+
+
+{/* Aqui empieza el codigo del Slider */}
             <div className="three">
                 <img src= {Fondo2} alt="img"/>
-                <h1>Lideres en</h1>
+                <h3>Lideres en</h3>
                 <TypeAnimation className='animation'
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
@@ -91,8 +96,10 @@ const Body = () => {
                     </Swiper>
                 </div>
             </div>
-        </div>
 
+
+
+        </div>
     )
 }
 
