@@ -8,6 +8,16 @@
     font-family: 'Tektur', cursive;
 }
 
+.pBody2{
+    color: black;
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    font-size: 2.5vh;
+    left: 22%;
+    font-family: 'Tektur', cursive;
+}
+
 .PCards{
     
 }

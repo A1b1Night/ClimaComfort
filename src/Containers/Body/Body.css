@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.three img{
+    width: 100%;
+}
+
 h1{
     color: white;
     position: absolute;
@@ -26,7 +30,7 @@ h1{
     display: flex;
     position: absolute;
     left: 2%;
-    top: 75%;
+    top: 40%;
 }
 
 .cards{
@@ -50,7 +54,7 @@ h3{
 
 .btn{
     position: absolute;
-    top: 88%;
+    top: 48%;
     right: 2%;
     background-color: #E9B281;
     border: solid;
@@ -61,3 +65,34 @@ h3{
     font-family: 'Tektur', cursive;
     font-weight: bold;
 }
+
+.three h1{
+    color: #84A6FA;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    left: 18%;    
+    font-size: 8vh;
+    font-family: 'Tektur', cursive;
+}
+
+.animation{
+    background-color: #84A6FA;
+    color: black;
+    position: absolute;
+    top: 66%;
+    border-radius: 16px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: auto;
+    left: 22%;    
+    font-size: 8vh;
+    font-family: 'Tektur', cursive;
+}
+
+.four{
+    top: 65%;
+    position: absolute;
+    width: 30%;
+    right: 10%;
+}   
