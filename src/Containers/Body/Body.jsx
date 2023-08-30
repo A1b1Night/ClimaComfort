@@ -10,12 +10,16 @@ import Casco from '../../Assets/Icons/Casco.png'
 import Arnes from '../../Assets/Icons/Arnes.png'
 import Chaleco from '../../Assets/Icons/Chaleco.png'
 import Lentes from '../../Assets/Icons/Lentes.png'
+import flecha from '../../Assets/Icons/Arrow 3.png'
 //Importacion de la imagen de Fondo
 import Fondo from '../../Assets/Fondo.png'
 import Fondo2 from '../../Assets/Fondo-2.png'
 
 // Imagenes
 import SL1 from '../../Assets/Ductos.png'
+import V1 from '../../Assets/Visor-1.jpg'
+import V2 from '../../Assets/Visor-2.jpg'
+import V3 from '../../Assets/Visor-3.jpg'
 
 const Body = () => {
     return (
@@ -78,7 +82,7 @@ const Body = () => {
                 <p className={styles.pBody2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris </p>
-                <div className="four">
+                <div className="slider">
                     <Swiper className='a'
                     modules={[Autoplay]}
                     spaceBetween={0}
@@ -97,6 +101,18 @@ const Body = () => {
                 </div>
             </div>
 
+{/* Aqui empieza El visor de Imagenes */}
+
+            <div className='four'>
+                    <nav>Nuestros Trabajos </nav>
+                <div className='galeria'>
+                    <img src={V1} alt='img'/>
+                    <img src={V2} alt='img'/>
+                    <img src={V3} alt='img'/>
+                    <img src={V3} alt='img'/>
+                    <img src={V3} alt='img'/>
+                </div>
+            </div>
 
 
         </div>

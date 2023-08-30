@@ -12,7 +12,7 @@
 h1{
     color: white;
     position: absolute;
-    top: 15%;
+    top: 10%;
     width: 100%;
     padding-left: 4%;    
     font-size: 12vh;
@@ -30,7 +30,7 @@ h1{
     display: flex;
     position: absolute;
     left: 2%;
-    top: 40%;
+    top: 28%;
 }
 
 .cards{
@@ -54,7 +54,7 @@ h4{
 
 .btn{
     position: absolute;
-    top: 48%;
+    top: 33%;
     right: 2%;
     background-color: #E9B281;
     border: solid;
@@ -69,7 +69,7 @@ h4{
 h3{
     color: #84A6FA;
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 22%;    
     font-size: 8vh;
     font-family: 'Tektur', cursive;
@@ -79,7 +79,7 @@ h3{
     background-color: #84A6FA;
     color: black;
     position: absolute;
-    top: 66%;
+    top: 45%;
     border-radius: 16px;
     padding-left: 1%;
     padding-right: 1%;
@@ -89,9 +89,43 @@ h3{
     font-family: 'Tektur', cursive;
 }
 
-.four{
-    top: 65%;
+.slider{
+    top: 48%;
     position: absolute;
     width: 30%;
     right: 10%;
 }   
+
+
+/*Estilos del Visor de Imagenes*/
+
+.four{
+    width: 100%;
+}
+
+.four nav{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px; 
+    object-fit: cover;
+}
+
+.galeria img{
+    width: 100%;
+}
+
+.galeria img:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+
+

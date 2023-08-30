@@ -2,7 +2,7 @@
     color: white;
     position: absolute;
     width: 30%;
-    top: 25%;
+    top: 18%;
     font-size: 2.5vh;
     right: 7%;
     font-family: 'Tektur', cursive;
@@ -12,12 +12,9 @@
     color: black;
     position: absolute;
     width: 30%;
-    top: 75%;
+    top: 50%;
     font-size: 2.5vh;
     left: 22%;
     font-family: 'Tektur', cursive;
 }
 
-.PCards{
-    
-}
