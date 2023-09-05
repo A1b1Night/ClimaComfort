@@ -104,7 +104,10 @@ const Body = () => {
 {/* Aqui empieza El visor de Imagenes */}
 
             <div className='four'>
-                    <nav>Nuestros Trabajos </nav>
+                <div className='tFour'>
+                    <img src={flecha} alt='' />
+                    <nav>Nuestros Trabajos </nav>  
+                </div>
                 <div className='galeria'>
                     <img src={V1} alt='img'/>
                     <img src={V2} alt='img'/>
